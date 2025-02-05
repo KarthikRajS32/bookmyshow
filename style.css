@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.roboto{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.h1{
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input{
+    width: 60%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.input {
+    padding-left: 40px; 
+}
+
+.side-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color:rgb(253, 80, 80);
+    color: white;
+    padding: 8px 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container {
+    position: relative;
+    flex-grow: 1;
+    margin: 0 20px ;
+}
+
+.h2{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.list{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.list1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    left: 0;
+    cursor: pointer;
+
+}
+
+.list2{
+    position:absolute;
+    right: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor:pointer;
+}
+
+
+ 
+.slider {
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    width: 100% ;
+    animation: slide 20s infinite ;
+  }
+
+  .slides img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  } 
+
+  .hr{
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+
+
+.container1{
+  background-color: #f1f1f1;    
+  padding: 25px 0px;
+  }
+
+.img-color{
+    background-color:rgb(255, 238, 238);
+    padding: 30px 0px;
+}
+
+
+.img-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img{
+  width:230px;
+  border-radius: 10px;
+}
+
+.action{
+  color:grey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;       
+}
+
+.container2{
+  background-color:rgb(247, 247, 247);
+  padding: 25px ;
+}
