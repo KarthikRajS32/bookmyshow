@@ -166,6 +166,10 @@
   border-radius: 10px;
 }
 
+.img:hover {
+  transform: scale(1.05);
+}
+
 .action{
   color:grey;
 }
@@ -427,6 +431,10 @@ a {
   object-fit: cover; 
   filter: brightness(50%); 
   transition: filter 0.1s ease; 
+}
+
+.face:hover {
+  transform: scale(1.2);
 }
 
 .face:hover {
