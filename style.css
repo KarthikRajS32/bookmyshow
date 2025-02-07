@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0px 40px  ;
 }
 
 .input{
@@ -74,7 +75,7 @@
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 20px 70px;
     background-color: #f1f1f1;
 }
 
@@ -178,3 +179,266 @@ a {
   background-color:rgb(247, 247, 247);
   padding: 25px ;
 }
+
+.recommended{
+  padding: 0px 13px;
+  font-size: 25px;  
+}
+
+.stream{
+  width: 92vw;
+  cursor: pointer;
+}
+
+.container3{
+  background-color:rgb(247, 247, 247);
+  padding: 60px 35px;
+}
+
+.live{
+  padding: 0px 29px;
+  font-size: 25px;  
+}
+
+
+.live-img{
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.live-events{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container4{
+  background-color:rgb(247, 247, 247);
+  padding: 10px 15px 50px ;
+}
+
+
+.playbtn{
+  width: 85vw;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container5{
+  background-color: rgb(45, 48, 73);
+  padding: 10px 15px 10px ;
+}
+
+.txt-white{
+  color: white;
+}
+
+.pre{
+  padding: 1px 50px ;
+}
+.pre1{
+  padding: 0px 50px 20px ;
+}
+
+.pre-img{
+  width: 220px;
+  border-radius: 10px;
+}
+
+.premieres-img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px 35px;
+}
+
+.music-img{
+  width: 220px;
+  border-radius: 10px;
+}
+
+.music-img-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px 35px;
+}
+
+.txt-gray{
+  color:rgb(53, 53, 58);
+}
+
+.container6{
+  background-color:rgb(247, 247, 247);
+  padding: 10px 15px 20px ;
+}
+
+.outdoor-img-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px 35px;
+}
+
+.container7{
+  background-color:rgb(247, 247, 247);
+  padding: 10px 15px 20px ;
+}
+
+.laugh-img-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px 35px;
+}
+
+.laugh-img{
+  width: 220px;
+  border-radius: 10px;
+}
+
+.container8{
+  background-color:rgb(247, 247, 247);
+  padding: 10px 15px 30px ;
+}
+
+.container9{
+  background-color: rgb(53, 56, 58);
+  display:flex;
+  align-items: center;
+
+}
+
+.bg-red{
+  background-color:rgb(253, 80, 80);
+}
+
+.list-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 10px 270px 30px 60px;
+}
+
+.btn{
+  background-color:rgb(253, 80, 80);
+  color: white;
+  padding: 12px 20px 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.container10{
+  background-color:rgb(61, 62, 65);
+}
+
+.ctm{
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(160, 160, 160);
+}
+
+.cc-img{
+  width:50%;
+}
+
+.ctm-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.ctm:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.container11{
+  background-color: rgb(45, 48, 51);
+ padding: 10px 60px 150px;
+}
+
+.gray-txt{
+  color: rgb(160, 160, 160);
+}
+
+.line-txt{
+  color: rgb(160, 160, 160);
+  font-size: 12px;
+}
+
+.hr-line{
+  position: absolute;
+  top: 880vh;
+  border: 1px solid #ccc;
+  width: 97vw;
+  left: 10px;
+}
+
+.logo{
+  position: absolute;
+  top: 879vh;
+  left: 600px;
+  background-color: rgb(45, 48, 51);
+  cursor: pointer;
+  padding:0px 20px;
+}
+
+
+.container12{
+  background-color: rgb(45, 48, 51);
+  padding: 20px 60px 50px;
+  justify-content: space-evenly;
+  gap: 200px;
+
+}
+
+.in{
+  width:36px;
+  border-radius: 50%;
+}
+
+.logo-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 20px;
+  gap: 20px;
+}
+
+
+.face {
+  border-radius: 50%; 
+  object-fit: cover; 
+  filter: brightness(50%); 
+  transition: filter 0.1s ease; 
+}
+
+.face:hover {
+  filter: brightness(100%);
+}
+
+.container13{
+  background-color: rgb(45, 48, 51);
+  padding: 5px 60px 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(160, 160, 160);
+  font-size: 10.8px;
+ }
